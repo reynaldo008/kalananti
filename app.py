@@ -216,7 +216,7 @@ h1, h2, h3 {
 """, unsafe_allow_html=True)
 
 # Navigasi di sidebar
-st.sidebar.image("https://placehold.co/300x150/1E2A36/A6B3A9?text=Kopi+Kala+Nanti+Logo")
+st.sidebar.image("KKN.png")
 st.sidebar.title("Navigasi")
 page = st.sidebar.radio(
     "Pilih Halaman:",
@@ -240,4 +240,3 @@ elif page == "Location / Contact":
     show_location_contact_page()
 elif page == "Shop":
     show_shop_page()
-
