@@ -13,7 +13,7 @@ def show_homepage():
         hati-hati untuk menghasilkan cita rasa yang tak terlupakan.
         """
     )
-    st.image("https://placehold.co/1200x600/1E2A36/A6B3A9?text=Ruang+Kopi+yang+Hangat", use_column_width=True)
+    st.image("web.png", use_container_width=True)
     st.markdown("---")
     st.header("Pilihan Favorit")
     col1, col2, col3 = st.columns(3)
@@ -240,3 +240,4 @@ elif page == "Location / Contact":
     show_location_contact_page()
 elif page == "Shop":
     show_shop_page()
+
