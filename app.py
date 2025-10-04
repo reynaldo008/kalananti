@@ -4,15 +4,15 @@ import streamlit as st
 def show_homepage():
     """Menampilkan halaman utama (homepage) aplikasi."""
     st.title("Selamat Datang di Kopi Kala Nanti")
-    st.header("Filosofi Kami")
-    st.write(
-        """
-        Di Kopi Kala Nanti, kami percaya bahwa setiap tegukan kopi adalah
-        sebuah perenungan akan masa lalu dan inspirasi untuk masa depan.
-        Kami menyajikan kopi terbaik dari biji pilihan, diolah dengan
-        hati-hati untuk menghasilkan cita rasa yang tak terlupakan.
-        """
-    )
+    # st.header("Filosofi Kami")
+    # st.write(
+    #     """
+    #     Di Kopi Kala Nanti, kami percaya bahwa setiap tegukan kopi adalah
+    #     sebuah perenungan akan masa lalu dan inspirasi untuk masa depan.
+    #     Kami menyajikan kopi terbaik dari biji pilihan, diolah dengan
+    #     hati-hati untuk menghasilkan cita rasa yang tak terlupakan.
+    #     """
+    # )
     st.image("web.png", use_container_width=True)
     st.markdown("---")
     st.header("Pilihan Favorit")
@@ -240,4 +240,5 @@ elif page == "Location / Contact":
     show_location_contact_page()
 elif page == "Shop":
     show_shop_page()
+
 
